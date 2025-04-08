@@ -1,6 +1,5 @@
 const express = require("express");
 const { LOGOUT_LINKS } = require("../constants/navigation");
-const logger = require("../utils/logger");
 
 const router = express.Router();
 

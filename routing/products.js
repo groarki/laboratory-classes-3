@@ -1,13 +1,7 @@
-const fileSystem = require("fs");
-const { STATUS_CODE } = require("../constants/statusCode");
 const { MENU_LINKS } = require("../constants/navigation");
 const { productsSlice } = require("../store/products");
 
-const path = require("path");
-
 const express = require("express");
-
-const renderNewProductPage = require("../views/renderNewProductPage");
 
 const router = express.Router();
 

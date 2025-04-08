@@ -1,4 +1,3 @@
-const path = require("path");
 const express = require("express");
 const { LOGOUT_LINKS } = require("../constants/navigation");
 const router = express.Router();

@@ -4,7 +4,6 @@ const express = require("express");
 const bodyParser = require("body-parser");
 
 const { PORT } = require("./config");
-const logger = require("./utils/logger");
 const productsRoutes = require("./routing/products");
 const logoutRoutes = require("./routing/logout");
 const killRoutes = require("./routing/kill");
