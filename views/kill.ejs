@@ -9,18 +9,8 @@
   <body>
     <%- include('partials/navigation', { menuLinks, activeLinkPath }); %>
     <main>
-      <h1 class="heading">Products</h1>
-      <% if (products && products.length > 0) { %>
-      <ul>
-        <% products.forEach(product => { %>
-        <li>
-          Name: <%= product.name %>, Description: <%= product.description %>
-        </li>
-        <% }); %>
-      </ul>
-      <% } else { %>
-      <div>No products available.</div>
-      <% } %>
+      <h1 class="heading">Shutting down server...</h1>
+      <p>The server will shut down in 3 seconds.</p>
     </main>
   </body>
 </html>
